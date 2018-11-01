@@ -60,3 +60,4 @@ gem 'bootstrap', '~> 4.1.3'
 gem 'jquery-rails'
 
 gem 'klein_view_tool', git: 'https://github.com/Lkleindesigns/klein_view_tool'
+gem 'petergate', '~> 2.0', '>= 2.0.1'
