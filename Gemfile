@@ -62,3 +62,5 @@ gem 'jquery-rails'
 gem 'klein_view_tool', git: 'https://github.com/Lkleindesigns/klein_view_tool'
 gem 'petergate', '~> 2.0', '>= 2.0.1'
 gem "loofah", ">= 2.2.3"
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
+gem 'kaminari', '~> 1.1', '>= 1.1.1'
