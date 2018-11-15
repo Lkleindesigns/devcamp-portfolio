@@ -1,16 +1,12 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">Logan Klein</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <%= link_to "Home", root_path, class: 'nav-item nav-link' %>
-        <%= link_to "About", about_path, class: 'nav-item nav-link' %>
-        <%= link_to "Contact", contact_path, class: 'nav-item nav-link' %>
-        <%= link_to "Blog", blogs_path, class: 'nav-item nav-link' %>
-        <%= link_to "Portfolio", portfolios_path, class: 'nav-item nav-link' %>
+        <%= nav_helper 'nav-link', 'span' %>
         <%= login_helper 'nav-item nav-link' %>
       </div>
     </div>
