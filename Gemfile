@@ -68,3 +68,4 @@ gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 gem 'mini_magick', '~> 4.9', '>= 4.9.2'
 gem 'dotenv-rails', '~> 2.5'
 gem 'aws-sdk-s3', require: false
+gem 'cocoon', '~> 1.2', '>= 1.2.12'
