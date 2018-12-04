@@ -59,6 +59,7 @@ gem 'devise', '~> 4.5'
 gem 'bootstrap', '~> 4.1.3'
 gem 'jquery-rails'
 
+
 gem 'klein_view_tool', git: 'https://github.com/Lkleindesigns/klein_view_tool'
 gem 'petergate', '~> 2.0', '>= 2.0.1'
 gem "loofah", ">= 2.2.3"
@@ -69,3 +70,4 @@ gem 'mini_magick', '~> 4.9', '>= 4.9.2'
 gem 'dotenv-rails', '~> 2.5'
 gem 'aws-sdk-s3', require: false
 gem 'cocoon', '~> 1.2', '>= 1.2.12'
+gem 'gritter', '~> 1.2'

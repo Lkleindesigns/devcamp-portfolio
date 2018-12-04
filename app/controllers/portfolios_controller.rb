@@ -57,8 +57,6 @@ class PortfoliosController < ApplicationController
   end
 
   def destroy
-
-
     # Destroy the record
     @portfolio_item.destroy
 
