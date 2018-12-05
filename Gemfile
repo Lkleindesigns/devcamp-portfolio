@@ -71,3 +71,4 @@ gem 'dotenv-rails', '~> 2.5'
 gem 'aws-sdk-s3', require: false
 gem 'cocoon', '~> 1.2', '>= 1.2.12'
 gem 'gritter', '~> 1.2'
+gem 'twitter', '~> 6.2'
