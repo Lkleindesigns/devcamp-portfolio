@@ -7,7 +7,7 @@
 
   <p><%= @blog.body %></p>
 
-  <% unless current_user.is_a? GuestUser %>
+    <% unless current_user.is_a? GuestUser %>
     <%= form_with model: @comment, url: '#' do |f| %>
       <div>
         <%= f.label :content %>
@@ -17,6 +17,6 @@
     <% end %>
   <% end %>
 
-<% render @blog.comments %>
+  <%= render @blog.comments %>
 
 </div>
